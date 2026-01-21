@@ -6,9 +6,10 @@ This capstone project focuses on developing a data-driven approach to predict cu
 ## Technical Approach
 * **Data Engineering:** Developed a pipeline in **Python** to handle categorical encoding and feature scaling.
 * **Feature Selection:** Identified and removed redundant variables, such as `Avg_Open_To_Buy`, which had a perfect correlation ($r = 1.0$) with `Credit_Limit`.
-* **Machine Learning:** Evaluated and compared four supervised models: **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM)**.
+* **Machine Learning:** Evaluated and compared four supervised models: **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM)**. 
 
-![Correlation Heatmap](Correlation Heatmap.jpg)
+![Correlation Heatmap](Correlation Heatmap.jpg) ![Correlation Heatmap](https://github.com/user-attachments/assets/3c2fc5ab-4f41-47de-9cd6-9173913c2d35)
+
 *Caption: Pearson correlation analysis used to identify redundant features and leading indicators of churn.*
 
 ## Key Results
