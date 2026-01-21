@@ -8,7 +8,7 @@ This capstone project focuses on developing a data-driven approach to predict cu
 * **Feature Selection:** Identified and removed redundant variables, such as `Avg_Open_To_Buy`, which had a perfect correlation ($r = 1.0$) with `Credit_Limit`.
 * **Machine Learning:** Evaluated and compared four supervised models: **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM) with an RBF kernel**.
 
-![Correlation Heatmap](your_heatmap_filename.png)
+![Correlation Heatmap](Correlation Heatmap.png)
 *Caption: Pearson correlation analysis used to identify redundant features and leading indicators of churn.*
 
 ## Key Results
@@ -16,7 +16,7 @@ This capstone project focuses on developing a data-driven approach to predict cu
 * **Model Robustness:** The **SVM (RBF Kernel)** demonstrated superior class separation with high **AUC-ROC** values, proving its effectiveness at distinguishing between churners and non-churners.
 * **Optimization:** Implemented a `max_depth=5` pruning strategy for the Decision Tree to effectively control overfitting and ensure high generalization on unseen data.
 
-![Model Test Accuracy Comparison](your_accuracy_chart_filename.png)
+![Model Test Accuracy Comparison](Accuracy Comparison.png)
 *Caption: Performance comparison across the four evaluated machine learning algorithms.*
 
 ## Summary of Performance Trend
@@ -36,7 +36,7 @@ A critical part of this study was observing how the models behaved when switchin
 2. **Behavioral Monitoring:** Track **Total Transaction Count** and **Total Revolving Balance**, as the model identified these as the strongest predictors of attrition.
 3. **Strategic Efficiency:** Deploy the model using the **Reduced Feature Set** to reduce computational costs without sacrificing predictive power.
 
-![Decision Tree Logic](your_tree_structure_filename.png)
+![Decision Tree Logic](Decision Tree.png)
 *Caption: Visualization of the Decision Tree logic used to classify at-risk customers.*
 
 ## Tools Used
