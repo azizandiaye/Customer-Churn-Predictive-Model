@@ -8,7 +8,7 @@ This capstone project focuses on developing a data-driven approach to predict cu
 * **Feature Selection:** Identified and removed redundant variables, such as `Avg_Open_To_Buy`, which had a perfect correlation ($r = 1.0$) with `Credit_Limit`.
 * **Machine Learning:** Evaluated and compared four supervised models: **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM) with an RBF kernel**.
 
-![Correlation Heatmap](Correlation Heatmap.png)
+![Correlation Heatmap](Correlation Heatmap.jpg)
 *Caption: Pearson correlation analysis used to identify redundant features and leading indicators of churn.*
 
 ## Key Results
