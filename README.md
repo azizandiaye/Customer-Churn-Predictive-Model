@@ -8,7 +8,7 @@ This capstone project focuses on developing a data-driven approach to predict cu
 * **Feature Selection:** Identified and removed redundant variables, such as `Avg_Open_To_Buy`, which had a perfect correlation ($r = 1.0$) with `Credit_Limit`.
 * **Machine Learning:** Evaluated and compared four supervised models: **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM)**. 
 
-![Correlation Heatmap](Correlation Heatmap.jpg) ![Correlation Heatmap](https://github.com/user-attachments/assets/3c2fc5ab-4f41-47de-9cd6-9173913c2d35)
+ ![Correlation Heatmap](https://github.com/user-attachments/assets/3c2fc5ab-4f41-47de-9cd6-9173913c2d35)
 
 *Caption: Pearson correlation analysis used to identify redundant features and leading indicators of churn.*
 
@@ -17,7 +17,8 @@ This capstone project focuses on developing a data-driven approach to predict cu
 * **Model Robustness:** The **SVM (RBF Kernel)** demonstrated superior class separation with an **AUC-ROC of 0.96**, proving highly effective at distinguishing churners.
 * **Optimization:** Implemented a `max_depth=5` pruning strategy for the Decision Tree to effectively control overfitting.
 
-![Accuracy Comparison Chart](Accuracy Comparison.jpg)
+![Accuracy Comparison](https://github.com/user-attachments/assets/4e5d19eb-5957-4416-b7dd-29d6a1357223)
+
 *Caption: Performance comparison across the four evaluated machine learning algorithms.*
 
 ## Summary of Performance Trend
@@ -37,7 +38,8 @@ A critical part of this study was observing how model performance changed when s
 2. **Behavioral Monitoring:** Track **Total Transaction Count** and **Total Revolving Balance**, as these were identified as the strongest predictors of attrition.
 3. **Strategic Efficiency:** Deploy the model using the **Reduced Feature Set** to reduce computational costs while maintaining high accuracy.
 
-![Decision Tree Structure](Decision Tree.jpg)
+ ![Decision Tree](https://github.com/user-attachments/assets/0dfbef13-5b38-441f-bac6-1979ae7b80a8)
+
 *Caption: Visualization of the Decision Tree logic used to classify at-risk customers.*
 
 ## Tools Used
